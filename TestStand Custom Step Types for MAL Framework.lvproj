@@ -11,12 +11,16 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
-			<Item Name="TestStand API.lvlib" Type="Library" URL="../API/TestStand API.lvlib"/>
+			<Item Name="TestStand API.lvlib" Type="Library" URL="../Measurement Utility/API/TestStand API.lvlib"/>
 		</Item>
 		<Item Name="Measurement Setup" Type="Folder">
 			<Item Name="Measurement Setup Controller.lvlib" Type="Library" URL="../Measurement Setup/Measurement Setup Controller.lvlib"/>
 		</Item>
-		<Item Name="TestStand Example" Type="Folder"/>
+		<Item Name="TestStand Example" Type="Folder">
+			<Item Name="Example Sequence.seq" Type="Document" URL="../Example Sequence.seq"/>
+			<Item Name="TS_MeasurementController.ini" Type="Document" URL="../TS_MeasurementController.ini"/>
+		</Item>
+		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -32,7 +36,6 @@
 				<Item Name="Build Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - Traditional__ogtk.vi"/>
 				<Item Name="Build Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-				<Item Name="Configuration.lvlib" Type="Library" URL="/&lt;userlib&gt;/Configuration Dialog Actor/Configuration.lvlib"/>
 				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
 				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
 				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
@@ -122,6 +125,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../../Extensible-Config-Dialog/Configuration.lvlib"/>
 			<Item Name="Controller Actor.lvlib" Type="Library" URL="../../MAL-Framework/user.lib/Common Components/Controller/Controller Actor.lvlib"/>
 			<Item Name="Controller API.lvlib" Type="Library" URL="../../MAL-Framework-API/Controller API.lvlib"/>
 			<Item Name="Generic UI Actor.lvlib" Type="Library" URL="../../MAL-Framework/user.lib/Common Components/User Interface/Generic UI Actor.lvlib"/>

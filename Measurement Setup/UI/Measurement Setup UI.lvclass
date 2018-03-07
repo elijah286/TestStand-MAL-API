@@ -41,11 +41,11 @@
 		<Item Name="Write Save.vi" Type="VI" URL="../Write Save.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'C!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'2!=!!?!!"")EVF98.V=G6N:7ZU)&amp;.F&gt;(6Q)%.P&lt;H2S&lt;WRM:8)O&lt;(:M;7)=476B=X6S:7VF&lt;H1A5W6U&gt;8!A65EO&lt;(:D&lt;'&amp;T=Q!9476B=X6S:7VF&lt;H1A5W6U&gt;8!A65EA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"*!=!!)!!!!#!!!"&amp;.B&gt;G5!!'*!=!!?!!"")EVF98.V=G6N:7ZU)&amp;.F&gt;(6Q)%.P&lt;H2S&lt;WRM:8)O&lt;(:M;7)=476B=X6S:7VF&lt;H1A5W6U&gt;8!A65EO&lt;(:D&lt;'&amp;T=Q!8476B=X6S:7VF&lt;H1A5W6U&gt;8!A65EA;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!%!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">50331648</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8912896</Property>
 		</Item>
 	</Item>
 	<Item Name="Window Handle" Type="Property Definition">
